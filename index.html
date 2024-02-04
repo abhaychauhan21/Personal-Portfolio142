@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/391b81b9d8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+   <div id="header">
+       <div class="container">
+        <nav>
+           <img src="img/Screenshot 2024-01-26 at 2.38.39 AM.png" alt="logo">
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fa-solid fa-xmark"></i>
+           </ul>
+           <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header-text">
+        <p>Hello!!</p>
+        <h1>I'm <span>Abhay</span> from     India<h1>
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/PHOTO-2024-01-26-03-07-09.jpg">
+                </div>
+                <div class="about col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a space enthusiast or a science lover cureently pursuing Btech in Computer Sc
+                    </p>
+                    <p>I am a dedicated student and am a good grasper...</p>
+                <div class="tab-titles">
+
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Python</span><br>Have good skills in python..</li>
+                        <li><span>Front End</span><br>A good coder in html css and java..</li>
+                        <li><span>C++</span><br>Built various C++ project..</li>
+                        <li><span>SQL</span><br>Performed various SQL queries..</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2022-Current</span><br>Btech Cse at Chitkara University</li>
+                        <li><span>2019-2022</span><br>pursued Cs from school and participated in various open school projects</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022</span><br>Persuing BTECH from Chitkara University</li>
+                        <li><span>2019</span><br>10- 10+2 Done from Colonel Central Academy </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Achievements</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Organising Head</h2>
+                    <p>Organising Head at Centre of Excellence Apple Student Community and working under Dr. Amanpreet Kaur.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Star Programmer</h2>
+                    <p>Awarded as Star Programmer in First Year for excellent performance in Academics.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Hackathon</h2>
+                    <p>Participated in Hackathon and gained experience of how a coding competition.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>   
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/photo-1542393545-10f5cde2c810.avif "> 
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to your near and dears and to all people out in the world.</p>
+                        <a href="#"><i class="fa-solid fa-hashtag"></i></a>
+                    </div>                   
+                </div>
+                <div class="work">
+                    <img src="img/macbook-minimal-dark-wallpaper.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to your near and dears and to all people out in the world.</p>
+                        <a href="http://127.0.0.1:5500/spotify.html"><i class="fa-solid fa-music"></i></a>
+                    </div> 
+                </div>
+                <div class="work">
+                    <img src="img/computer-laptop-light-glow.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to your near and dears and to all people out in the world.</p>
+                        <a href="http://127.0.0.1:5502/html.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div> 
+                </div>
+            </div>  
+                <a href="#" class="btn">See More</a>    
+        </div>
+    </div>
+
+
+
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>abhaychauhan8716@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8588800043</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/abhayy.chauhann/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/AbhayCh12407384"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/abhaychauhan21"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Response"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-bolt"></i>copyright *Abhay. MADE IN INDIA</p>
+        </div>
+    </div>
+</body>
+</html>
